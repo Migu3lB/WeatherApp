@@ -22,4 +22,11 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="WeatherApp.Client.Tests\" />
+    <Folder Include="WeatherApp.API.Tests\" />
+    <Folder Include="WeatherApp.Infrastructure.Tests\" />
+    <Folder Include="WeatherApp.Core.Tests\" />
+  </ItemGroup>
+
 </Project>

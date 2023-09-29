@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    images: [
+        "api.weather.gov"
+    ]
+}
 
 module.exports = nextConfig

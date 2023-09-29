@@ -1,0 +1,384 @@
+{
+  "properties": {
+    "periods": [
+      {
+        "number": 1,
+        "name": "This Afternoon",
+        "startTime": "2023-09-29T12:00:00-04:00",
+        "endTime": "2023-09-29T18:00:00-04:00",
+        "isDaytime": true,
+        "temperature": 63,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "probabilityOfPrecipitation": {
+          "unitCode": "wmoUnit:percent",
+          "value": 60
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 12.777777777777779
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 81
+        },
+        "windSpeed": "9 mph",
+        "windDirection": "NE",
+        "icon": "https://api.weather.gov/icons/land/day/rain,60?size=medium",
+        "shortForecast": "Light Rain Likely",
+        "detailedForecast": "Rain likely. Cloudy, with a high near 63. Northeast wind around 9 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible."
+      },
+      {
+        "number": 2,
+        "name": "Tonight",
+        "startTime": "2023-09-29T18:00:00-04:00",
+        "endTime": "2023-09-30T06:00:00-04:00",
+        "isDaytime": false,
+        "temperature": 56,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "probabilityOfPrecipitation": {
+          "unitCode": "wmoUnit:percent",
+          "value": 70
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 12.777777777777779
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 90
+        },
+        "windSpeed": "8 mph",
+        "windDirection": "NE",
+        "icon": "https://api.weather.gov/icons/land/night/tsra,70?size=medium",
+        "shortForecast": "Light Rain Likely",
+        "detailedForecast": "Rain likely before 9pm, then rain likely and isolated thunderstorms. Cloudy, with a low around 56. Northeast wind around 8 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible."
+      },
+      {
+        "number": 3,
+        "name": "Saturday",
+        "startTime": "2023-09-30T06:00:00-04:00",
+        "endTime": "2023-09-30T18:00:00-04:00",
+        "isDaytime": true,
+        "temperature": 65,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "probabilityOfPrecipitation": {
+          "unitCode": "wmoUnit:percent",
+          "value": 50
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 12.777777777777779
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 93
+        },
+        "windSpeed": "10 mph",
+        "windDirection": "NE",
+        "icon": "https://api.weather.gov/icons/land/day/rain,50/rain_showers,30?size=medium",
+        "shortForecast": "Chance Light Rain then Chance Rain Showers",
+        "detailedForecast": "A chance of rain before 8am, then a chance of rain showers. Cloudy, with a high near 65. Northeast wind around 10 mph. Chance of precipitation is 50%. New rainfall amounts between a quarter and half of an inch possible."
+      },
+      {
+        "number": 4,
+        "name": "Saturday Night",
+        "startTime": "2023-09-30T18:00:00-04:00",
+        "endTime": "2023-10-01T06:00:00-04:00",
+        "isDaytime": false,
+        "temperature": 54,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "probabilityOfPrecipitation": {
+          "unitCode": "wmoUnit:percent",
+          "value": 20
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 11.666666666666666
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 83
+        },
+        "windSpeed": "9 mph",
+        "windDirection": "N",
+        "icon": "https://api.weather.gov/icons/land/night/rain_showers,20/sct?size=medium",
+        "shortForecast": "Slight Chance Rain Showers then Partly Cloudy",
+        "detailedForecast": "A slight chance of rain showers before 11pm. Partly cloudy, with a low around 54. North wind around 9 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
+      },
+      {
+        "number": 5,
+        "name": "Sunday",
+        "startTime": "2023-10-01T06:00:00-04:00",
+        "endTime": "2023-10-01T18:00:00-04:00",
+        "isDaytime": true,
+        "temperature": 72,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "probabilityOfPrecipitation": {
+          "unitCode": "wmoUnit:percent",
+          "value": null
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 12.222222222222221
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 86
+        },
+        "windSpeed": "8 to 12 mph",
+        "windDirection": "N",
+        "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+        "shortForecast": "Sunny",
+        "detailedForecast": "Sunny, with a high near 72. North wind 8 to 12 mph."
+      },
+      {
+        "number": 6,
+        "name": "Sunday Night",
+        "startTime": "2023-10-01T18:00:00-04:00",
+        "endTime": "2023-10-02T06:00:00-04:00",
+        "isDaytime": false,
+        "temperature": 58,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "probabilityOfPrecipitation": {
+          "unitCode": "wmoUnit:percent",
+          "value": null
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 13.333333333333334
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 87
+        },
+        "windSpeed": "5 to 8 mph",
+        "windDirection": "N",
+        "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+        "shortForecast": "Mostly Clear",
+        "detailedForecast": "Mostly clear, with a low around 58. North wind 5 to 8 mph."
+      },
+      {
+        "number": 7,
+        "name": "Monday",
+        "startTime": "2023-10-02T06:00:00-04:00",
+        "endTime": "2023-10-02T18:00:00-04:00",
+        "isDaytime": true,
+        "temperature": 71,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "probabilityOfPrecipitation": {
+          "unitCode": "wmoUnit:percent",
+          "value": null
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 13.88888888888889
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 84
+        },
+        "windSpeed": "10 mph",
+        "windDirection": "NE",
+        "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+        "shortForecast": "Sunny",
+        "detailedForecast": "Sunny, with a high near 71. Northeast wind around 10 mph."
+      },
+      {
+        "number": 8,
+        "name": "Monday Night",
+        "startTime": "2023-10-02T18:00:00-04:00",
+        "endTime": "2023-10-03T06:00:00-04:00",
+        "isDaytime": false,
+        "temperature": 54,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "probabilityOfPrecipitation": {
+          "unitCode": "wmoUnit:percent",
+          "value": null
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 12.777777777777779
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 93
+        },
+        "windSpeed": "6 to 9 mph",
+        "windDirection": "S",
+        "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+        "shortForecast": "Mostly Clear",
+        "detailedForecast": "Mostly clear, with a low around 54. South wind 6 to 9 mph."
+      },
+      {
+        "number": 9,
+        "name": "Tuesday",
+        "startTime": "2023-10-03T06:00:00-04:00",
+        "endTime": "2023-10-03T18:00:00-04:00",
+        "isDaytime": true,
+        "temperature": 78,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "probabilityOfPrecipitation": {
+          "unitCode": "wmoUnit:percent",
+          "value": null
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 16.666666666666668
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 96
+        },
+        "windSpeed": "9 mph",
+        "windDirection": "SW",
+        "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+        "shortForecast": "Sunny",
+        "detailedForecast": "Sunny, with a high near 78. Southwest wind around 9 mph."
+      },
+      {
+        "number": 10,
+        "name": "Tuesday Night",
+        "startTime": "2023-10-03T18:00:00-04:00",
+        "endTime": "2023-10-04T06:00:00-04:00",
+        "isDaytime": false,
+        "temperature": 59,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "probabilityOfPrecipitation": {
+          "unitCode": "wmoUnit:percent",
+          "value": null
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 16.666666666666668
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 93
+        },
+        "windSpeed": "6 to 9 mph",
+        "windDirection": "W",
+        "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+        "shortForecast": "Mostly Clear",
+        "detailedForecast": "Mostly clear, with a low around 59. West wind 6 to 9 mph."
+      },
+      {
+        "number": 11,
+        "name": "Wednesday",
+        "startTime": "2023-10-04T06:00:00-04:00",
+        "endTime": "2023-10-04T18:00:00-04:00",
+        "isDaytime": true,
+        "temperature": 78,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "probabilityOfPrecipitation": {
+          "unitCode": "wmoUnit:percent",
+          "value": null
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 16.666666666666668
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 96
+        },
+        "windSpeed": "6 to 9 mph",
+        "windDirection": "E",
+        "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+        "shortForecast": "Sunny",
+        "detailedForecast": "Sunny, with a high near 78. East wind 6 to 9 mph."
+      },
+      {
+        "number": 12,
+        "name": "Wednesday Night",
+        "startTime": "2023-10-04T18:00:00-04:00",
+        "endTime": "2023-10-05T06:00:00-04:00",
+        "isDaytime": false,
+        "temperature": 58,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "probabilityOfPrecipitation": {
+          "unitCode": "wmoUnit:percent",
+          "value": null
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 15.555555555555555
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 93
+        },
+        "windSpeed": "6 to 9 mph",
+        "windDirection": "S",
+        "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+        "shortForecast": "Partly Cloudy",
+        "detailedForecast": "Partly cloudy, with a low around 58. South wind 6 to 9 mph."
+      },
+      {
+        "number": 13,
+        "name": "Thursday",
+        "startTime": "2023-10-05T06:00:00-04:00",
+        "endTime": "2023-10-05T18:00:00-04:00",
+        "isDaytime": true,
+        "temperature": 74,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "probabilityOfPrecipitation": {
+          "unitCode": "wmoUnit:percent",
+          "value": null
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 15
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 96
+        },
+        "windSpeed": "6 to 10 mph",
+        "windDirection": "S",
+        "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+        "shortForecast": "Mostly Sunny",
+        "detailedForecast": "Mostly sunny, with a high near 74. South wind 6 to 10 mph."
+      },
+      {
+        "number": 14,
+        "name": "Thursday Night",
+        "startTime": "2023-10-05T18:00:00-04:00",
+        "endTime": "2023-10-06T06:00:00-04:00",
+        "isDaytime": false,
+        "temperature": 59,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "probabilityOfPrecipitation": {
+          "unitCode": "wmoUnit:percent",
+          "value": null
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 15
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 93
+        },
+        "windSpeed": "10 mph",
+        "windDirection": "S",
+        "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+        "shortForecast": "Mostly Cloudy",
+        "detailedForecast": "Mostly cloudy, with a low around 59. South wind around 10 mph."
+      }
+    ]
+  }
+}
